@@ -1,0 +1,1 @@
+Aqui eu faço meus exercícios propostos pelo curso que estou fazendo no curso em vídeo do professor guanabara. Se você tiver alguma sujestão de implementação nos meus códigos, fique a vontade para fazer um comentário sobre, isso ajuda bastante no meu crescimento. Obrigado :)
