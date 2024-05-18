@@ -1,0 +1,254 @@
+.container {
+    font: bold 12pt Arial;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #2D2D2D;
+    color: white;
+    width: 60%;
+    height: 80%;
+    border-radius: 10px;
+    border-color: black;
+    max-width: 520px;
+}
+
+.b1-3 {
+    position: relative;
+    top: 5%;
+    left: 10px;
+}
+
+#b1 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 5%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+#b2 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 37%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+#b3 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 69%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+.b4-6 {
+    position: relative;
+    top: 30%;
+    left: 10px;
+}
+
+#b4 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 5%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+#b5 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 37%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+#b6 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 69%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+.b7-9 {
+    position: relative;
+    top: 55%;
+    left: 10px;
+}
+
+#b7 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 5%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+#b8 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 37%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+#b9 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 69%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+.b0 {
+    position: relative;
+    top: 79%;
+    left: 2%;
+}
+
+#b0 {
+    position: absolute;
+    width: 110px;
+    height: 110px;
+    font: bold 30pt Arial;
+    left: 69%;
+    border-radius: 10px;
+    border-width: 6px;
+    background: #D3D3D3;
+}
+
+.result {
+    font: bold 20pt Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 9%;
+    background: gray;
+    border-radius: 10px;
+    width: 50%;
+    top: 83%;
+    height: 10%;
+}
+
+.sinais {
+    display: flex;
+    font: bold 20pt Arial;
+    position: inherit;
+    top: 87.5%;
+    left:8.2%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#igual {
+    font: bold 40pt Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #32CD32;
+    width: 79px;
+    height: 79px;
+    border-radius: 10px;
+    border-color: #000000;
+}
+
+#vezes {
+    position: relative;
+    font: bold 40pt Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFA500;
+    width: 79px;
+    height: 79px;
+    border-radius: 10px;
+    border-color: #000000;
+    left: 2%;
+}
+
+#divisão {
+    position: relative;
+    font: bold 40pt Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFA500;
+    width: 79px;
+    height: 79px;
+    border-radius: 10px;
+    border-color: #000000;
+    left: 4%;
+}
+
+#soma {
+    position: relative;
+    font: bold 40pt Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFA500;
+    width: 79px;
+    height: 79px;
+    border-radius: 10px;
+    border-color: #000000;
+    left: 6%;
+}
+
+#sub {
+    position: relative;
+    font: bold 40pt Arial;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFA500;
+    width: 79px;
+    height: 79px;
+    border-radius: 10px;
+    border-color: #000000;
+    left: 8%;
+}
+
+.calculadora {
+    position: relative;
+    background: rgba(255, 68, 0, 0.808);
+    width:100%;
+    height: 75%;
+}
+
