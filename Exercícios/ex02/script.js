@@ -38,7 +38,7 @@ function verificar() {
                 img.setAttribute('src', 'imagens/homem.jpeg')
             } else {
                 //idoso
-                img.setAttribute('src', 'imagens/idoso.jpeg')
+                img.setAttribute('src', 'imagens/idoso.jpg')
             }
         }
         res.style.textAlign = 'center'

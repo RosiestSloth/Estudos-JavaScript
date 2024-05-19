@@ -7,15 +7,16 @@
     <title>calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="main()">
     <div class="container">
         <h1>Calculadora</h1>
+        <input type="button" value="AC" id="ac" onclick="ac()">
         <div class="sinais">
-            <input  id="igual" type="button" value="=">
-            <input id="vezes" type="button" value="×">
-            <input id="divisão" type="button" value="÷">
-            <input id="soma" type="button" value="+">
-            <input id="sub" type="button" value="-">
+            <input  id="igual" type="button" value="=" onclick="resultado()">
+            <input id="vezes" type="button" value="×" onclick="mult()">
+            <input id="divisão" type="button" value="÷" onclick="divisao()">
+            <input id="soma" type="button" value="+" onclick="soma()">
+            <input id="sub" type="button" value="-" onclick="sub()">
         </div>
         <div class="calculadora">
             <div class="b1-3">
@@ -36,7 +37,7 @@
             <div class="b0">
                 <input id="b0" type="button" value="0" onclick="s0()">
             </div>
-            <div class="result">
+            <div id="result">
                 Resultado
             </div>
         </div>

@@ -1,3 +1,17 @@
+@charset "UTF-8";
+
+body {
+    background: rgb(70, 142, 236);
+}
+
+#ac {
+    position: absolute;
+    top: 1%;
+    right: 10%;
+    width: 15%;
+    height: 9%;
+}
+
 .container {
     font: bold 12pt Arial;
     position: absolute;
@@ -148,7 +162,7 @@
     background: #D3D3D3;
 }
 
-.result {
+#result {
     font: bold 20pt Arial;
     display: flex;
     justify-content: center;
