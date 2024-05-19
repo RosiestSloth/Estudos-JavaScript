@@ -4,12 +4,27 @@ body {
     background: rgb(70, 142, 236);
 }
 
+footer {
+    position: fixed;
+    color: white;
+    text-align: center;
+    font-style: italic;
+    bottom: 0;
+    left: 50%;
+}
+
 #ac {
+    font: bold 15pt Arial;
     position: absolute;
-    top: 1%;
+    top: 0.6%;
     right: 10%;
     width: 15%;
     height: 9%;
+    color: white;
+    background: #171717;
+    border-radius: 10px;
+    border-width: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 .container {
@@ -17,7 +32,7 @@ body {
     position: absolute;
     text-align: center;
     top: 50%;
-    left: 50%;
+    left: 53%;
     transform: translate(-50%, -50%);
     background: #2D2D2D;
     color: white;
@@ -26,6 +41,7 @@ body {
     border-radius: 10px;
     border-color: black;
     max-width: 520px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.324);
 }
 
 .b1-3 {
@@ -43,6 +59,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 #b2 {
@@ -54,6 +71,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 #b3 {
@@ -65,6 +83,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 .b4-6 {
@@ -82,6 +101,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 #b5 {
@@ -93,6 +113,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 #b6 {
@@ -104,6 +125,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 .b7-9 {
@@ -121,6 +143,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 #b8 {
@@ -143,6 +166,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 .b0 {
@@ -160,6 +184,7 @@ body {
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 #result {
@@ -174,6 +199,7 @@ body {
     width: 50%;
     top: 83%;
     height: 10%;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.324);
 }
 
 .sinais {

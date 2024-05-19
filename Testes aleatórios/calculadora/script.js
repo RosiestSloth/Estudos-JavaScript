@@ -55,7 +55,6 @@ function s0() {
 
 function mult() {
     num1 = num
-    Number(num)
     res = 'x'
     num = ''
     document.getElementById('result').innerHTML = `${num}`
@@ -63,7 +62,6 @@ function mult() {
 
 function divisao() {
     num1 = num
-    Number(num)
     res = '/'
     num = ''
     document.getElementById('result').innerHTML = `${num}`
@@ -71,7 +69,6 @@ function divisao() {
 
 function soma() {
     num1 = num
-    Number(num)
     res = '+'
     num = ''
     document.getElementById('result').innerHTML = `${num}`
@@ -79,7 +76,6 @@ function soma() {
 
 function sub() {
     num1 = num
-    Number(num)
     res = '-'
     num = ''
     document.getElementById('result').innerHTML = `${num}`
@@ -95,16 +91,13 @@ function ac() {
 
 function resultado() {
     if (res == 'x'){
-        result = num1 * num
-        document.getElementById('result').innerHTML = `${result}`
+        result = Number(num1) * Number(num)
     } else if (res == '/'){
-        result = num1 / num
-        document.getElementById('result').innerHTML = `${result}`
+        result = Number(num1) / Number(num)
     } else if (res == '+'){
-        result = num1 + num
-        document.getElementById('result').innerHTML = `${result}`
+        result = Number(num1) + Number(num)
     } else if (res == '-'){
-        result = num1 - num
-        document.getElementById('result').innerHTML = `${result}`
-    }   
+        result = Number(num1) - Number(num)
+    }  
+    document.getElementById('result').innerHTML = `${result}` 
 }
