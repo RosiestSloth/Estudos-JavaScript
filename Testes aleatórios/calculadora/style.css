@@ -16,9 +16,9 @@ footer {
 #ac {
     font: bold 15pt Arial;
     position: absolute;
-    top: 0.6%;
-    right: 10%;
-    width: 15%;
+    top: 1vw;
+    right: 1vw;
+    width: 10vw;
     height: 9%;
     color: white;
     background: #171717;
@@ -32,19 +32,23 @@ footer {
     position: absolute;
     text-align: center;
     top: 50%;
-    left: 53%;
+    left: 50%;
     transform: translate(-50%, -50%);
     background: #2D2D2D;
     color: white;
     width: 60%;
     height: 80%;
     border-radius: 10px;
-    border-color: black;
-    max-width: 520px;
+    border-color: rgb(0, 0, 0);
+    max-width: 400px;
+    min-width: 100px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.324);
 }
 
 .b1-3 {
+    width: 40vw;
+    max-width: 300px;
+    min-width: 200px;
     position: relative;
     top: 5%;
     left: 10px;
@@ -52,8 +56,8 @@ footer {
 
 #b1 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 5%;
     border-radius: 10px;
@@ -64,8 +68,8 @@ footer {
 
 #b2 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 37%;
     border-radius: 10px;
@@ -76,8 +80,8 @@ footer {
 
 #b3 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 69%;
     border-radius: 10px;
@@ -88,14 +92,17 @@ footer {
 
 .b4-6 {
     position: relative;
+    width: 40vw;
+    max-width: 300px;
+    min-width: 200px;
     top: 30%;
     left: 10px;
 }
 
 #b4 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 5%;
     border-radius: 10px;
@@ -106,8 +113,8 @@ footer {
 
 #b5 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 37%;
     border-radius: 10px;
@@ -118,8 +125,8 @@ footer {
 
 #b6 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 69%;
     border-radius: 10px;
@@ -130,14 +137,18 @@ footer {
 
 .b7-9 {
     position: relative;
+    justify-content: center;
+    width: 40vw;
+    max-width: 300px;
+    min-width: 200px;
     top: 55%;
     left: 10px;
 }
 
 #b7 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 5%;
     border-radius: 10px;
@@ -148,8 +159,8 @@ footer {
 
 #b8 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 37%;
     border-radius: 10px;
@@ -159,8 +170,8 @@ footer {
 
 #b9 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
     left: 69%;
     border-radius: 10px;
@@ -171,16 +182,16 @@ footer {
 
 .b0 {
     position: relative;
-    top: 79%;
-    left: 2%;
+    top: 78%;
 }
 
 #b0 {
     position: absolute;
-    width: 110px;
-    height: 110px;
+    width: 60px;
+    height: 60px;
     font: bold 30pt Arial;
-    left: 69%;
+    margin-left: 76px;
+    margin-right: 30px;
     border-radius: 10px;
     border-width: 6px;
     background: #D3D3D3;
@@ -203,26 +214,22 @@ footer {
 }
 
 .sinais {
-    display: flex;
     font: bold 20pt Arial;
-    position: inherit;
-    top: 87.5%;
-    left:8.2%;
-    width: 100%;
-    max-width: 100%;
+    position: absolute;
+    left: 71%;
+    height: 10vw;
 }
 
 #igual {
+    position: relative;
     font: bold 40pt Arial;
     color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background: #32CD32;
-    width: 79px;
-    height: 79px;
+    width: 50px;
+    height: 50px;
+    border: 2px outset black;
     border-radius: 10px;
-    border-color: #000000;
+    padding-bottom: 10px;
 }
 
 #vezes {
@@ -233,11 +240,10 @@ footer {
     justify-content: center;
     align-items: center;
     background: #FFA500;
-    width: 79px;
-    height: 79px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     border-color: #000000;
-    left: 2%;
 }
 
 #divisão {
@@ -248,11 +254,10 @@ footer {
     justify-content: center;
     align-items: center;
     background: #FFA500;
-    width: 79px;
-    height: 79px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     border-color: #000000;
-    left: 4%;
 }
 
 #soma {
@@ -263,11 +268,10 @@ footer {
     justify-content: center;
     align-items: center;
     background: #FFA500;
-    width: 79px;
-    height: 79px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     border-color: #000000;
-    left: 6%;
 }
 
 #sub {
@@ -278,17 +282,14 @@ footer {
     justify-content: center;
     align-items: center;
     background: #FFA500;
-    width: 79px;
-    height: 79px;
+    width: 50px;
+    height: 50px;
     border-radius: 10px;
     border-color: #000000;
-    left: 8%;
 }
 
 .calculadora {
-    position: relative;
     background: rgba(255, 68, 0, 0.808);
-    width:100%;
-    height: 75%;
+    height: 67%;
 }
 
