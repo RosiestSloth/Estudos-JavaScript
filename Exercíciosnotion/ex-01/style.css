@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+
+    /*Cores Escuras do Projeto*/
+    --cor0: #033E8C;
+    --cor1: #1B65A6;
+    --cor2: #731702;
+    --cor3: #D93D1A;
+    --cor4: #232323;
+
+    /*Cores Claras do Projeto*/
+    --cor5: #1B65A6;
+    --cor6: #F2D399;
+    --cor7: #D93D1A;
+    --cor8: #D94A4A;
+    --cor9: #F2F2F2;
+
+    /*Fontes do Projeto*/
+    --titulo: 'Montserrat', 'sans-serif';
+    --font-corpo: 'Open Sans', 'sans-serif';
+    --font-botoes: 'Poppins', 'sans-serif';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--cor0);
+    color: var(--cor9);
+}
+
+header {
+    padding: 30px;
+    background-color: var(--cor5);
+    text-align: center;
+}
+
+
+main {
+    padding: 10px;
+    background-color: var(--cor6);
+    color: var(--cor4);
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+
+header > h1 {
+    font-family: var(--titulo);
+    font-weight: 700;
+    font-size: 2.3em;
+}
+
+h2 {
+    font-family: var(--titulo);
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+article {
+    font-family: var(--font-corpo);
+    font-weight: 600;
+    line-height: 40px;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+footer {
+    padding: 50px;
+    background-color: var(--cor4);
+    margin-top: 100px;
+}
