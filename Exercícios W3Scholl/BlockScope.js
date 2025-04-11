@@ -6,7 +6,7 @@ let z = 30; //Let and const have block scope
 
 console.log(x);
 
-
+// We cannot declare var or let in the same block scope, this will result in an error
 
 {
     const x = 20;
