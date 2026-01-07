@@ -1,4 +1,4 @@
-// Estrutura condicional id
+// Estrutura condicional if
 
 // if (expressão) {}
 
